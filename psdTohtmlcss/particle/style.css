@@ -1,0 +1,296 @@
+body,div,h1,h2,h3,h4,h5,h6,p,ul,ol,li,dl,dt,dd,img,form,fieldset,input,blockquote{
+    margin: 0; padding: 0; border: 0;
+}
+body{
+    font-family: Helvetica,Arial,Sans-serif;
+    line-height: 24px;
+    background: #eeeeee url("images/body-bg.jpg") center top no-repeat;
+}
+#container{
+    width: 925px;
+    margin: 0 auto;
+    padding: 143px 0 0 0;
+}
+#header{
+    background: url("images/header-bg.png") right bottom no-repeat;
+    overflow: hidden;
+    padding: 0 0 50px 0 ;
+}
+#header h1{
+    float: left;
+}
+
+#header ul#categories{
+    float: right;
+    list-style: none;
+    margin: 16px 0 0 0;
+}
+#header ul#categories li{
+    float: left;
+    margin: 0 0 0 40px;
+
+}
+
+#header ul#categories li a{
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #a42988;
+    text-shadow: 0 2px 0px #fff;
+    text-decoration: none;
+}
+
+#header ul#categories li a:hover{
+    color: #006ab1;
+}
+
+#content{
+    background: url("images/content-bg.png") right top repeat-y;
+    overflow: hidden;
+}
+#content a{
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #a42988;
+    text-shadow: 0 2px 0px #fff;
+    text-decoration: none;
+}
+#content a:hover{
+    color: #006ab1;
+}
+#content #main{
+
+    width: 685px;
+    float: left;
+    padding: 55px 0 0 0;
+}
+
+#content #main .pagination {
+    overflow: hidden;
+}
+#content #main .pagination p {
+    width: 160px; height: 24px; padding: 15px 20px; text-align: center;
+    background: url(images/btn-bg.jpg)
+}
+#content #main .pagination p.older {
+    float: left;
+}
+#content #main .pagination p.newer {
+    float: right; margin: 0 47px 0 0;
+}
+
+#content #main h2
+{
+    margin: 0 0 16px 0;
+
+}
+#content #main p{
+    margin: 0 0 25px 0;
+    color: #474747 ;
+    font-size: 15px;
+}
+#content #main .post{
+    background: url("images/post-divider.png") right bottom no-repeat;
+    padding: 0 47px 55px 0;
+    margin: 0 0 55px 0;
+    overflow: hidden;
+}
+#content #main .post .date{
+    width: 62px;
+    height: 57px;
+    float: left;
+    padding: 15px 0 0 0;
+    background: #0085cc url(images/date-bg.jpg);
+    text-align: center;
+}
+#content #main .post .date p {
+    font-size: 40px;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 0 2px 3px #006ab1;
+}
+#content #main .post .date p span{
+    margin: 5px 0 0 0;
+    display: block;
+    font-size: 17px;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+#content #main .post .post-content{
+    width: 556px;
+    float: left;
+    margin-left: 10px;
+}
+
+#content #main .post .post-content ul.post-meta{
+    width: 515px;
+    height: 21px;
+    list-style: none;
+    padding: 14px 20px;
+    background: #d6d6d6 url("images/meta-bg.jpg");
+}
+
+#content #main .post .post-content ul.post-meta li{
+    float: left;
+    margin: 0 40px 0 0;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-shadow: 0px 2px 3px #b8b8b8;
+}
+
+#content #main .post .post-content ul.post-meta li.read-more{
+    float: right;
+    margin: 0 0 0 0;
+}
+
+#content #main .post .post-content ul.post-meta li a{
+    color: #ffffff;
+    text-shadow: 0px 2px 3px #b8b8b8;
+}
+
+#content #main .post .post-content ul.post-meta li a:hover {
+    color: #eee;
+}
+#content #side{
+    width: 200px;
+    float: left;
+    padding: 5px 20px;
+}
+#content #side p#subscribe a{
+    display: block;
+    height: 30px;
+    padding: 7px 0 0 45px;
+    margin: 0 0 15px 0;
+    font-size: 20px;
+    color: #ffffff;
+    text-shadow: 0px 2px 3px #b8b8b8;
+    background: url("images/rss-icon.png") left no-repeat;
+}
+
+#content #side p#subscribe a:hover {
+    color: #eee;
+}
+#content #side ul#pages{
+    list-style: none;
+    margin: 0 0 30px 0;
+}
+#content #side ul#pages li{
+    margin: 0 0 5px 0;
+}
+#content #side ul#pages li a{
+    display: block;
+    width: 157px;
+    height: 23px;
+    padding: 12px 20px;
+    text-align: center;
+    background: #eeeeee url("images/sidebar-btn.png");
+}
+#content #side h3 {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin: 0 0 5px 0;
+    text-shadow: 0 2px 3px #b8b8b8;
+}
+#content #side ul#follow-me{
+    overflow: hidden;
+    list-style: none;
+    margin: 0 0 30px 0;
+}
+
+#content #side ul#follow-me li{
+    float: left;
+    margin: 0 8px 8px 0;
+}
+#content #side ul#follow-me li a{
+    display: block;
+    width: 32px;
+    height: 32px;
+    text-indent: -9999px;
+}
+#content #side ul#follow-me li a.twitter {
+    background: url("images/twitter_32.png");
+}
+
+#content #side ul#follow-me li a.facebook {
+    background: url("images/facebook_32.png");
+}
+#content #side ul#follow-me li a.flickr {
+    background: url("images/flickr_32.png");
+}
+#content #side ul#follow-me li a.youtube {
+    background: url("images/youtube_32.png");
+}
+#content #side ul#follow-me li a.vimeo {
+    background: url("images/vimeo_32.png");
+}
+
+#content #side form#search{
+    margin: 0 0 30px 0;
+}
+
+#content #side form#search input.search-bar {
+    width: 135px;
+    height: 43px;
+    padding: 1px 45px 0 15px;
+    float: left;
+    background: #eeeeee url("images/search-bar.png");
+}
+
+#content #side form#search input.search-btn{
+    width: 27px;
+    height: 27px;
+    float: right;
+    margin: -35px 15px 0 0;
+    background: url("images/search-btn.png");
+    text-indent: -9999px;
+    padding: 0 0 0 27px;
+}
+
+#footer{
+    background: url("images/footer-bg.png") center top no-repeat;
+    overflow: hidden;
+    min-height: 139px;
+}
+
+#footer ul#credits{
+    overflow: hidden;
+    list-style: none;
+    float: left;
+    margin: 25px 0 0 20px;
+}
+#footer ul#credits li{
+    float: left;
+    margin: 0 10px 0 0;
+
+}
+#footer ul#credits li a {
+    display: block;
+    height: 21px;
+    background: url(images/credits.png);
+    text-indent: -9999px;
+}
+#footer ul#credits li a.wordpress {
+    width: 21px;
+}
+#footer ul#credits li a.spoongraphics {
+    width: 26px;
+    background-position: 26px 0;
+}
+#footer p#back-top {
+    float: right;
+    margin: 25px 20px 0 0;
+}
+#footer p#back-top a {
+    font-size: 12px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #a42988;
+    text-shadow: 0 2px 0px #fff;
+}
+#footer p#back-top a:hover {
+    color: #006ab1;
+}
